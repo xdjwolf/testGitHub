@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180AEAE81CC8A0A90032D867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AEAE71CC8A0A90032D867 /* AppDelegate.swift */; };
+		180AEAEA1CC8A0A90032D867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AEAE91CC8A0A90032D867 /* ViewController.swift */; };
+		180AEAED1CC8A0A90032D867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180AEAEB1CC8A0A90032D867 /* Main.storyboard */; };
+		180AEAEF1CC8A0A90032D867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180AEAEE1CC8A0A90032D867 /* Assets.xcassets */; };
+		180AEAF21CC8A0A90032D867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180AEAF01CC8A0A90032D867 /* LaunchScreen.storyboard */; };
+		180AEAFD1CC8A0A90032D867 /* TapGestureRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AEAFC1CC8A0A90032D867 /* TapGestureRecognizerTests.swift */; };
+		180AEB081CC8A0A90032D867 /* TapGestureRecognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AEB071CC8A0A90032D867 /* TapGestureRecognizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180AEAF91CC8A0A90032D867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180AEADC1CC8A0A90032D867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180AEAE31CC8A0A90032D867;
+			remoteInfo = TapGestureRecognizer;
+		};
+		180AEB041CC8A0A90032D867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180AEADC1CC8A0A90032D867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180AEAE31CC8A0A90032D867;
+			remoteInfo = TapGestureRecognizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180AEAE41CC8A0A90032D867 /* TapGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180AEAE71CC8A0A90032D867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		180AEAE91CC8A0A90032D867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		180AEAEC1CC8A0A90032D867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180AEAEE1CC8A0A90032D867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180AEAF11CC8A0A90032D867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180AEAF31CC8A0A90032D867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180AEAF81CC8A0A90032D867 /* TapGestureRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapGestureRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180AEAFC1CC8A0A90032D867 /* TapGestureRecognizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureRecognizerTests.swift; sourceTree = "<group>"; };
+		180AEAFE1CC8A0A90032D867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180AEB031CC8A0A90032D867 /* TapGestureRecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapGestureRecognizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180AEB071CC8A0A90032D867 /* TapGestureRecognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureRecognizerUITests.swift; sourceTree = "<group>"; };
+		180AEB091CC8A0A90032D867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180AEAE11CC8A0A90032D867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180AEAF51CC8A0A90032D867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180AEB001CC8A0A90032D867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180AEADB1CC8A0A90032D867 = {
+			isa = PBXGroup;
+			children = (
+				180AEAE61CC8A0A90032D867 /* TapGestureRecognizer */,
+				180AEAFB1CC8A0A90032D867 /* TapGestureRecognizerTests */,
+				180AEB061CC8A0A90032D867 /* TapGestureRecognizerUITests */,
+				180AEAE51CC8A0A90032D867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180AEAE51CC8A0A90032D867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180AEAE41CC8A0A90032D867 /* TapGestureRecognizer.app */,
+				180AEAF81CC8A0A90032D867 /* TapGestureRecognizerTests.xctest */,
+				180AEB031CC8A0A90032D867 /* TapGestureRecognizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180AEAE61CC8A0A90032D867 /* TapGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				180AEAE71CC8A0A90032D867 /* AppDelegate.swift */,
+				180AEAE91CC8A0A90032D867 /* ViewController.swift */,
+				180AEAEB1CC8A0A90032D867 /* Main.storyboard */,
+				180AEAEE1CC8A0A90032D867 /* Assets.xcassets */,
+				180AEAF01CC8A0A90032D867 /* LaunchScreen.storyboard */,
+				180AEAF31CC8A0A90032D867 /* Info.plist */,
+			);
+			path = TapGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		180AEAFB1CC8A0A90032D867 /* TapGestureRecognizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				180AEAFC1CC8A0A90032D867 /* TapGestureRecognizerTests.swift */,
+				180AEAFE1CC8A0A90032D867 /* Info.plist */,
+			);
+			path = TapGestureRecognizerTests;
+			sourceTree = "<group>";
+		};
+		180AEB061CC8A0A90032D867 /* TapGestureRecognizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				180AEB071CC8A0A90032D867 /* TapGestureRecognizerUITests.swift */,
+				180AEB091CC8A0A90032D867 /* Info.plist */,
+			);
+			path = TapGestureRecognizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180AEAE31CC8A0A90032D867 /* TapGestureRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180AEB0C1CC8A0A90032D867 /* Build configuration list for PBXNativeTarget "TapGestureRecognizer" */;
+			buildPhases = (
+				180AEAE01CC8A0A90032D867 /* Sources */,
+				180AEAE11CC8A0A90032D867 /* Frameworks */,
+				180AEAE21CC8A0A90032D867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapGestureRecognizer;
+			productName = TapGestureRecognizer;
+			productReference = 180AEAE41CC8A0A90032D867 /* TapGestureRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180AEAF71CC8A0A90032D867 /* TapGestureRecognizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180AEB0F1CC8A0A90032D867 /* Build configuration list for PBXNativeTarget "TapGestureRecognizerTests" */;
+			buildPhases = (
+				180AEAF41CC8A0A90032D867 /* Sources */,
+				180AEAF51CC8A0A90032D867 /* Frameworks */,
+				180AEAF61CC8A0A90032D867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180AEAFA1CC8A0A90032D867 /* PBXTargetDependency */,
+			);
+			name = TapGestureRecognizerTests;
+			productName = TapGestureRecognizerTests;
+			productReference = 180AEAF81CC8A0A90032D867 /* TapGestureRecognizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		180AEB021CC8A0A90032D867 /* TapGestureRecognizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180AEB121CC8A0A90032D867 /* Build configuration list for PBXNativeTarget "TapGestureRecognizerUITests" */;
+			buildPhases = (
+				180AEAFF1CC8A0A90032D867 /* Sources */,
+				180AEB001CC8A0A90032D867 /* Frameworks */,
+				180AEB011CC8A0A90032D867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180AEB051CC8A0A90032D867 /* PBXTargetDependency */,
+			);
+			name = TapGestureRecognizerUITests;
+			productName = TapGestureRecognizerUITests;
+			productReference = 180AEB031CC8A0A90032D867 /* TapGestureRecognizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180AEADC1CC8A0A90032D867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xidian;
+				TargetAttributes = {
+					180AEAE31CC8A0A90032D867 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = VC6ZPRL2HN;
+					};
+					180AEAF71CC8A0A90032D867 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = VC6ZPRL2HN;
+						TestTargetID = 180AEAE31CC8A0A90032D867;
+					};
+					180AEB021CC8A0A90032D867 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = VC6ZPRL2HN;
+						TestTargetID = 180AEAE31CC8A0A90032D867;
+					};
+				};
+			};
+			buildConfigurationList = 180AEADF1CC8A0A90032D867 /* Build configuration list for PBXProject "TapGestureRecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180AEADB1CC8A0A90032D867;
+			productRefGroup = 180AEAE51CC8A0A90032D867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180AEAE31CC8A0A90032D867 /* TapGestureRecognizer */,
+				180AEAF71CC8A0A90032D867 /* TapGestureRecognizerTests */,
+				180AEB021CC8A0A90032D867 /* TapGestureRecognizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180AEAE21CC8A0A90032D867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180AEAF21CC8A0A90032D867 /* LaunchScreen.storyboard in Resources */,
+				180AEAEF1CC8A0A90032D867 /* Assets.xcassets in Resources */,
+				180AEAED1CC8A0A90032D867 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180AEAF61CC8A0A90032D867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180AEB011CC8A0A90032D867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180AEAE01CC8A0A90032D867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180AEAEA1CC8A0A90032D867 /* ViewController.swift in Sources */,
+				180AEAE81CC8A0A90032D867 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180AEAF41CC8A0A90032D867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180AEAFD1CC8A0A90032D867 /* TapGestureRecognizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180AEAFF1CC8A0A90032D867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180AEB081CC8A0A90032D867 /* TapGestureRecognizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180AEAFA1CC8A0A90032D867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180AEAE31CC8A0A90032D867 /* TapGestureRecognizer */;
+			targetProxy = 180AEAF91CC8A0A90032D867 /* PBXContainerItemProxy */;
+		};
+		180AEB051CC8A0A90032D867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180AEAE31CC8A0A90032D867 /* TapGestureRecognizer */;
+			targetProxy = 180AEB041CC8A0A90032D867 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180AEAEB1CC8A0A90032D867 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180AEAEC1CC8A0A90032D867 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180AEAF01CC8A0A90032D867 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180AEAF11CC8A0A90032D867 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180AEB0A1CC8A0A90032D867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		180AEB0B1CC8A0A90032D867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180AEB0D1CC8A0A90032D867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jwolf.xidian.TapGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		180AEB0E1CC8A0A90032D867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TapGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jwolf.xidian.TapGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		180AEB101CC8A0A90032D867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TapGestureRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jwolf.xidian.TapGestureRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapGestureRecognizer.app/TapGestureRecognizer";
+			};
+			name = Debug;
+		};
+		180AEB111CC8A0A90032D867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TapGestureRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jwolf.xidian.TapGestureRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapGestureRecognizer.app/TapGestureRecognizer";
+			};
+			name = Release;
+		};
+		180AEB131CC8A0A90032D867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TapGestureRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jwolf.xidian.TapGestureRecognizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TapGestureRecognizer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		180AEB141CC8A0A90032D867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TapGestureRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jwolf.xidian.TapGestureRecognizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TapGestureRecognizer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180AEADF1CC8A0A90032D867 /* Build configuration list for PBXProject "TapGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180AEB0A1CC8A0A90032D867 /* Debug */,
+				180AEB0B1CC8A0A90032D867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180AEB0C1CC8A0A90032D867 /* Build configuration list for PBXNativeTarget "TapGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180AEB0D1CC8A0A90032D867 /* Debug */,
+				180AEB0E1CC8A0A90032D867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		180AEB0F1CC8A0A90032D867 /* Build configuration list for PBXNativeTarget "TapGestureRecognizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180AEB101CC8A0A90032D867 /* Debug */,
+				180AEB111CC8A0A90032D867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		180AEB121CC8A0A90032D867 /* Build configuration list for PBXNativeTarget "TapGestureRecognizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180AEB131CC8A0A90032D867 /* Debug */,
+				180AEB141CC8A0A90032D867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180AEADC1CC8A0A90032D867 /* Project object */;
+}
