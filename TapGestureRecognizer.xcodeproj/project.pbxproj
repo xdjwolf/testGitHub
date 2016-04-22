@@ -14,6 +14,8 @@
 		180AEAF21CC8A0A90032D867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180AEAF01CC8A0A90032D867 /* LaunchScreen.storyboard */; };
 		180AEAFD1CC8A0A90032D867 /* TapGestureRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AEAFC1CC8A0A90032D867 /* TapGestureRecognizerTests.swift */; };
 		180AEB081CC8A0A90032D867 /* TapGestureRecognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AEB071CC8A0A90032D867 /* TapGestureRecognizerUITests.swift */; };
+		180AEB171CC8AAD10032D867 /* Blend Trash Empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 180AEB151CC8AAD10032D867 /* Blend Trash Empty.png */; };
+		180AEB181CC8AAD10032D867 /* Blend Trash Full.png in Resources */ = {isa = PBXBuildFile; fileRef = 180AEB161CC8AAD10032D867 /* Blend Trash Full.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		180AEB031CC8A0A90032D867 /* TapGestureRecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapGestureRecognizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180AEB071CC8A0A90032D867 /* TapGestureRecognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureRecognizerUITests.swift; sourceTree = "<group>"; };
 		180AEB091CC8A0A90032D867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180AEB151CC8AAD10032D867 /* Blend Trash Empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Blend Trash Empty.png"; path = "../Blend Trash Empty.png"; sourceTree = "<group>"; };
+		180AEB161CC8AAD10032D867 /* Blend Trash Full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Blend Trash Full.png"; path = "../Blend Trash Full.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				180AEAEB1CC8A0A90032D867 /* Main.storyboard */,
 				180AEAEE1CC8A0A90032D867 /* Assets.xcassets */,
 				180AEAF01CC8A0A90032D867 /* LaunchScreen.storyboard */,
+				180AEB151CC8AAD10032D867 /* Blend Trash Empty.png */,
+				180AEB161CC8AAD10032D867 /* Blend Trash Full.png */,
 				180AEAF31CC8A0A90032D867 /* Info.plist */,
 			);
 			path = TapGestureRecognizer;
@@ -233,7 +239,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				180AEAF21CC8A0A90032D867 /* LaunchScreen.storyboard in Resources */,
+				180AEB181CC8AAD10032D867 /* Blend Trash Full.png in Resources */,
 				180AEAEF1CC8A0A90032D867 /* Assets.xcassets in Resources */,
+				180AEB171CC8AAD10032D867 /* Blend Trash Empty.png in Resources */,
 				180AEAED1CC8A0A90032D867 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
